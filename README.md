@@ -177,3 +177,5 @@ docker run -dp 8080:80  --name pure-admin vue-pure-admin
 瞧，那些 `小哥哥` 、`小姐姐` 认真 `学习` 的样子真滴是 `哎呦不错哦` :heart:
 
 [![Forkers repo roster for @pure-admin/vue-pure-admin](https://bytecrank.com/nastyox/reporoster/php/forkersSVG.php?user=pure-admin&repo=vue-pure-admin)](https://github.com/pure-admin/vue-pure-admin/network/members)
+
+<!-- tailwindcss xlsx swiper swiper/vue cropperjs vue3-danmaku vue-pdf-embed swiper/modules v-contextmenu wavesurfer.js -->
