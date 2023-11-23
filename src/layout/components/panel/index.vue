@@ -71,6 +71,10 @@ onBeforeUnmount(() => {
   width: calc(100% - 15px);
   overflow: hidden;
 }
+
+.bg-bg_color {
+  background-color: var(--el-bg-color);
+}
 </style>
 
 <style lang="scss" scoped>

@@ -22,10 +22,10 @@ const iconClass = computed(() => {
     "h-[16px]",
     "inline-block",
     "align-middle",
-    "text-primary",
+    "text-white",
     "cursor-pointer",
     "duration-[100ms]",
-    "hover:text-primary",
+    "hover:text-white",
     "dark:hover:!text-white"
   ];
 });
@@ -47,8 +47,16 @@ const toggleClick = () => {
       :effect="tooltipEffect"
       :content="props.isActive ? '点击折叠' : '点击展开'"
     >
-      <IconifyIconOffline
+      <!-- <IconifyIconOffline
         :icon="MenuFold"
+        :class="iconClass"
+        :style="{ transform: props.isActive ? 'none' : 'rotateY(180deg)' }"
+        @click="toggleClick"
+        @mouseenter="visible = true"
+        @mouseleave="visible = false"
+      /> -->
+      <div
+        class="i-carbon-distribute-horizontal-left"
         :class="iconClass"
         :style="{ transform: props.isActive ? 'none' : 'rotateY(180deg)' }"
         @click="toggleClick"
